@@ -1,0 +1,16 @@
+.responsive-map {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  /* my extra code */
+}
+.responsive-map iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+}
